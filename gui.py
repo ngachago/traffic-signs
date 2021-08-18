@@ -5,7 +5,7 @@ from PIL import ImageTk, Image
 
 import numpy
 #load the trained model to classify sign
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 model = load_model('traffic_classifier.h5')
 
 #dictionary to label all traffic signs class.
